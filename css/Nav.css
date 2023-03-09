@@ -1,0 +1,57 @@
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #introCarousel {
+        margin-top: -58.59px;
+    }
+}
+
+
+.navbar li {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0 10px;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #e9e7e7;
+    font-weight: bold;
+    background: none;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+
+.navbar .active {
+    background-color: #04AA6D;
+}
+
+
+/* Colors */
+
+/* 
+fad391
+f59470
+f0544f
+d81e5b
+861b47
+331832 */
